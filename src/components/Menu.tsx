@@ -120,7 +120,7 @@ const Menu = () => {
       color: '#e8c4a3',
       items: [
         { name: 'Copa Normal', description: 'Copa Normal', price: '5€' },
-        { name: 'Copa Premium', description: 'Copa Premium', price: '7€' },
+        { name: 'Copa Premium', description: 'Martin miller, Jack Daniels y Black Label', price: '7€' },
       ],
     },    
   ];
