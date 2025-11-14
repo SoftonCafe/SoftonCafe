@@ -43,8 +43,8 @@ const Menu = () => {
       items: [
         { name: 'Tostada aceite y tomate', description: 'Tostada aceite y tomate', price: '1.50€' },
         { name: 'Tostada mantequilla y mermelada', description: 'Tostada mantequilla y mermelada', price: '1.50€' },
-        { name: 'Tostada atún y tomate', description: 'Tropical con coco y limón', price: '2€' },
-        { name: 'Tostada jamón y tomate', description: 'Recién exprimida con bayas mixtas', price: '2€' },
+        { name: 'Tostada atún y tomate', description: 'Tostada atún y tomate', price: '2€' },
+        { name: 'Tostada jamón y tomate', description: 'Tostada jamón y tomate', price: '2€' },
       ],
     },
     {
