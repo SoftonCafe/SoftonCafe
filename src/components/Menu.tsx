@@ -52,7 +52,10 @@ const Menu = () => {
       title: 'Tapas',
       color: '#b8a99a',
       items: [
-        { name: 'Tapas', description: 'Tapas', price: '3.50€' },
+        { name: 'Tapa Albondigas en salsa', description: 'Tapa Albondigas en salsa', price: '3.50€' },
+        { name: 'Tapa Magra al ajillo', description: 'Tapa Magra al ajillo', price: '3.50€' },
+        { name: 'Tapa Pollo al Curry', description: 'Tapa Pollo al Curry', price: '3.50€' },
+        { name: 'Tapa Pincho de Donosti', description: 'Tapa Pincho de Donosti', price: '2.50€' },
         { name: 'Tapa carrillera', description: 'Tapa carrillera', price: '4.50€' },
         { name: 'Tapa calamar', description: 'Tapa calamar', price: '4.30€' },
         { name: 'Gyozas', description: 'Gyozas 4 Unidades', price: '3.50€' },
