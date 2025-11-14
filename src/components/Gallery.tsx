@@ -61,7 +61,7 @@ const Gallery = () => {
             un espacio que te invita a quedarte un rato.
           </p>
           <p className="text-[#a3917a] font-light">
-            Comparte tus momentos en Softon en redes sociales usando #SoftonCafé
+            Comparte tus momentos en Softon en redes sociales usando #SoftonTotana
           </p>
         </div>
       </div>
