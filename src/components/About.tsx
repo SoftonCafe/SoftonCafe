@@ -18,6 +18,8 @@ const About = () => {
             Softon nació de una idea simple: crear un espacio que se sienta como llegar a casa.
             Inspirados por los ritmos suaves de la música y la calidez de una taza de café perfecta,
             queríamos crear más que solo una cafetería — queríamos construir un santuario.
+
+            Acompañamos nuestras bebidas con una propuesta de tapas únicas, diferentes a las de cualquier otro lugar. Reinventamos clásicos con un toque propio — combinaciones inesperadas, ingredientes frescos y presentaciones que invitan a compartir. Cada tapa está pensada para complementar tu bebida y convertirse en parte de una experiencia cálida, simple y memorable.
           </p>
 
           <p className="text-lg text-[#6b5744] font-light leading-relaxed mb-6">
@@ -28,13 +30,8 @@ const About = () => {
           </p>
 
           <p className="text-lg text-[#6b5744] font-light leading-relaxed">
-            un momento tranquilo con un buen libro, Softon es tu refugio del ruido.
-
-Pero Softon también es un lugar para disfrutar. Por eso hemos creado una selección de cervezas artesanas pensadas para acompañar cualquier estado de ánimo: desde cervezas ligeras y refrescantes ideales para tardes relajadas, hasta opciones más complejas y aromáticas para quienes buscan descubrir nuevos sabores.
-
-Acompañamos nuestras bebidas con una propuesta de tapas únicas, diferentes a las de cualquier otro lugar. Reinventamos clásicos con un toque propio — combinaciones inesperadas, ingredientes frescos y presentaciones que invitan a compartir. Cada tapa está pensada para complementar tu bebida y convertirse en parte de una experiencia cálida, simple y memorable.
-
-Creemos en la calidad sin pretensión, la comodidad sin compromisos y la comunidad construida sobre momentos compartidos de calma… y de buen gusto. Bienvenido a Softon. Donde cada sorbo, cada bocado y cada momento encuentran su sitio.
+            Creemos en la calidad sin pretensión, la comodidad sin compromisos, y la comunidad
+            construida sobre momentos compartidos de calma. Bienvenido a Softon.
           </p>
         </div>
 
