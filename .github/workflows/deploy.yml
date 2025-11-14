@@ -1,0 +1,49 @@
+# .github/workflows/deploy.yml
+name: Deploy Vite Project to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Ejecutar en cada push a la rama principal
+  workflow_dispatch: # Permite ejecución manual
+
+# 🔑 Bloque CRÍTICO: Define los permisos necesarios para publicar en Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write # Esto soluciona el error "id-token: write"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' 
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Build project (Create 'dist' folder)
+        run: npm run build # Este comando genera la carpeta 'dist'
+        
+      # Configura el ambiente de GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      # Sube la carpeta 'dist' como artefacto de publicación
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: './dist' # Ruta de la carpeta de salida de Vite
+          
+      # Despliega el artefacto en GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
