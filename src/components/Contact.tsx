@@ -54,6 +54,7 @@ const Contact = () => {
                   <div className="text-[#a3917a] font-light space-y-1">
                     <p>Mañana: 8:00 - 12:00</p>
                     <p>Tarde: 16:00 - 23:00</p>
+                    <p>Fines de semana: 16:00 a cierre</p>
                   </div>
                 </div>
               </div>
