@@ -50,7 +50,7 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-[#8b7355]" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-light text-[#6b5744] mb-2">Horario</h3>
+                  <h3 className="text-xl font-light text-[#6b5744] mb-2">Horario de Martes a Domingo</h3>
                   <div className="text-[#a3917a] font-light space-y-1">
                     <p>Mañana: 8:00 - 12:00</p>
                     <p>Tarde: 16:00 - 23:00</p>
