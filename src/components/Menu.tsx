@@ -52,6 +52,7 @@ const Menu = () => {
       title: 'Tapas',
       color: '#b8a99a',
       items: [
+        { name: 'Tapa pollo tikka masala', description: 'Tapa pollo tikka masala', price: '3.50€' },
         { name: 'Tapa Albondigas en salsa', description: 'Tapa Albondigas en salsa', price: '3.50€' },
         { name: 'Tapa Magra al ajillo', description: 'Tapa Magra al ajillo', price: '3.50€' },
         { name: 'Tapa Pollo al Curry', description: 'Tapa Pollo al Curry', price: '3.50€' },
