@@ -52,8 +52,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-light text-[#6b5744] mb-2">Horario</h3>
                   <div className="text-[#a3917a] font-light space-y-1">
-                    <p>Lunes - Viernes: 7:00 AM - 9:00 PM</p>
-                    <p>Sábado - Domingo: 8:00 AM - 10:00 PM</p>
+                    <p>Mañana: 8:00 - 12:00</p>
+                    <p>Tarde: 16:00 - 23:00</p>
                   </div>
                 </div>
               </div>
