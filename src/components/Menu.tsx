@@ -1,4 +1,4 @@
-import { Coffee, Croissant, IceCream, Sparkles, Sandwich, GlassWater, CookingPot, Beer, CupSoda, Martini } from 'lucide-react';
+import { Coffee, CakeSlice, IceCream, Sparkles, Sandwich, GlassWater, CookingPot, Beer, CupSoda, Martini } from 'lucide-react';
 
 const Menu = () => {
   const categories = [
@@ -20,7 +20,7 @@ const Menu = () => {
       ],
     },
     {
-      icon: Croissant,
+      icon: CakeSlice,
       title: 'Postres y Dulces',
       color: '#d4a574',
       items: [
