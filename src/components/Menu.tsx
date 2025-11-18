@@ -21,7 +21,7 @@ const Menu = () => {
     },
     {
       icon: Croissant,
-      title: 'Dulces',
+      title: 'Postres y Dulces',
       color: '#d4a574',
       items: [
         { name: 'Batido', description: 'Batido', price: '3.50€' },
@@ -119,8 +119,8 @@ const Menu = () => {
         { name: 'Cola cao', description: 'Cola cao', price: '1.50€' },
         { name: 'Batido Puleva', description: 'Batido Puleva', price: '2€' },
         { name: 'Zumo piña/melocotón', description: 'Zumo piña/melocotón', price: '1.20€' },
-        { name: 'Agua 500ml', description: 'Agua 500ml', price: '0.70€' },
-        { name: 'Agua 1L', description: 'Agua 1L', price: '1.10€' },
+        { name: 'Agua 500ml', description: 'Agua 500ml', price: '1€' },
+        { name: 'Agua 1L', description: 'Agua 1L', price: '1.50€' },
         { name: 'Te e Infusiones', description: 'Manzanilla, Te negro con canela, Te rojo, Te verde, Te de hierba buena, Infusion de albahaca, menta poleo, infusion de frutos del bosque', price: '1.10€' },
       ],
     },    
